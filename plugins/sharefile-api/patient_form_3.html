@@ -1,0 +1,165 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Patient Registration Forms</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--[if IE]>
+    <link rel="shortcut icon" href="https://www.hoopesvision.com/wp-content/themes/hoopes-vision/favicon.ico">
+    <![endif]-->
+
+    <meta name='robots' content='noindex,follow' />
+    <link rel='stylesheet' id='fonts-css'  href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' type='text/css' media='all' />
+    <link rel='stylesheet' id='icon-font-css'  href='https://www.hoopesvision.com/wp-content/themes/hoopes-vision/css/icon-font.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-css'  href='https://www.hoopesvision.com/wp-content/themes/hoopes-vision/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='less-css'  href='https://www.hoopesvision.com/wp-content/themes/hoopes-vision/css/less.css' type='text/css' media='all' />
+
+</head>
+
+<body>
+
+<section class="item-list row container main-form">
+
+    <form class="patient-form" method="POST" enctype="multipart/form-data">
+
+        <div id="accordion" class="row spaced">
+
+            <div class="content boxed">
+
+                <h5 class="patient-form-3">Terms and Conditions - 3 of 3</h5>
+
+                <h4>WE APPRECIATE THE OPPORTUNITY OF SERVING YOU. WE PLEDGE TO GIVE YOU OUR VERY BEST MEDICAL CARE.</h4>
+
+                <div class="row terms">
+                    <h6>INSURANCE POLICY: </h6>
+                    <p>Insurance provides for your reimbursement on allowed medical charges. As a courtesy to you, we will provide an
+                        itemized statement that you may send to your insurance company for payment. We will be happy to submit to most
+                        insurance carriers if you have provided us with policy numbers, address, place of employment and any other pertinent
+                        information. You are responsible for all deductibles and charges not covered by insurance. Please understand that we
+                        cannot, as a third party, become involved in prolonged insurance negotiations: this is your responsibility.<br /><br />
+                        I authorize the release of any medical information necessary to process any claim. I permit a copy of the authorization
+                        to be used in place of the original. This authorization may be revoked by either me or my insurance company at any
+                        time in writing.</p>
+                    <h6>AUTHORIZATION FOR RELEASE OF MEDICAL RECORDS: </h6>
+                    <p>
+                        I authorize the Doctor to release any medical information including diagnosis, x-rays, test results, reports and records
+                        pertaining to any treatment or examination rendered to me. I understand that this medical information may be used for
+                        any of the following procedures: diagnostic, insurance, legal, and at times when the Doctor deems it necessary in
+                        order to ensure the best medical care on my behalf. I further understand that any person(s) that receive these medical
+                        records will not release any of the medical information obtained by this authorization to any person or organization
+                        without further authorization signed by me for release of the information.
+                    </p>
+                    <h6>TERMS AND CONDITIONS</h6>
+                    <p>Customer agrees to pay a finance charge of one and one-half percent (1 ½%) per month on all amounts due and owing
+                        to Hoopes Vision Correction Center, EyeSurg of Utah or Laser and Refractive Surgery Center of Utah. </p>
+                    <h6>ATTORNEY’S FEES AND COSTS:</h6>
+                    <p>If any legal action is necessary to enforce the terms of this Agreement, or if it is necessary to employ the services of
+                        an attorney to enforce the terms of this Agreement, the party in default or in breach hereof agrees to pay the other
+                        party’s reasonable attorney’s fees and court costs in addition to any other relief to which it may be entitled if
+                        Customer fails to pay any amounts owing hereunder when due, or otherwise breaches any terms of this Agreement.
+                        Customer agrees to pay up to a 40% collection expense incurred by Hoopes Vision Correction Center in attempting to
+                        collect such amounts from Customer, in addition to the aforementioned attorney’s fees and cost</p>
+                </div>
+
+                <div class="row sign">
+
+                    <div class="w50">
+                        <div class="w20" style="height: 1px">
+
+                        </div>
+                        <label class="w30">
+                            <p class="bold">Signed</p>
+                        </label>
+                        <label class="w50 no-cursive">
+                            <input type="text" class="no-cursive" name="terms_conditions_signature" required="required" value="%%terms_conditions_signature%%" />
+                        </label>
+                    </div>
+                    <!--                        <label class="box w40">-->
+                    <!--                            <input type="checkbox" />-->
+                    <!--                            <p><i class="fa fa-check fa-lg"></i></p>-->
+                    <!--                            <h6>I agree to the Terms and Conditions</h6>-->
+                    <!--                        </label>-->
+                    <label class="w10">
+                        <p class="bold">Date</p>
+                    </label>
+                    <label class="w30">
+                        <input type="text" class="date" name="terms_conditions_signature_date" required="required" value="%%terms_conditions_signature_date%%" />
+                    </label>
+                </div>
+
+                <h5 class="row">IN CASE OF EMERGENCY PLEASE CONTACT:</h5>
+
+                <div class="row">
+                    <label class="w50">
+                        <input type="text" name="emergency_contact_name"  required="required" value="%%emergency_contact_name%%" />
+                        <p>Name</p>
+                    </label>
+                    <label class="w50">
+                        <input type="tel" name="emergency_contact_phone" pattern="\(\d\d\d\) \d\d\d\-\d\d\d\d" title="(XXX) XXX-XXXX" placeholder="(XXX) XXX-XXXX" required="required" value="%%emergency_contact_phone%%" />
+                        <p>Phone Number</p>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="w50">
+                        <input type="text" name="emergency_contact_relationship" required="required" value="%%emergency_contact_relationship%%">
+                        <p>Relationship</p>
+                    </label>
+                    <label class="w50">
+                        <input type="text" name="emergency_contact_address" required="required" value="%%emergency_contact_address%%" >
+                        <p>Address</p>
+                    </label>
+                </div>
+
+                <div class="spesh-box">
+                    <h5>NOTICE OF PRIVACY PRACTICES </h5>
+                    <p>I,  <input type="text" class="fixed-width" name="privacy_practice_acknowledgement" required="required" value="%%privacy_practice_acknowledgement%%" />  acknowledge that I have received a copy of Hoopes Vision Correction Center
+                        “Notice of Privacy Practices”. This Notice describes how Hoopes Vision Correction Center may use and disclose my
+                        protected health information, certain restrictions on the use and disclosure of my healthcare information, and rights I
+                        may have regarding my protected health information.</p>
+                    <div class="row">
+
+                        <!--                                <label class="box w40">-->
+                        <!--                                    <input type="checkbox" />-->
+                        <!--                                    <p><i class="fa fa-check fa-lg"></i></p>-->
+                        <!--                                    <h6>Signature of Patient, or Personal Representative </h6>-->
+                        <!--                                </label>-->
+
+                        <label class="w30">
+                            <p class="bold"> Signature of Patient, or Personal Representative </p>
+                        </label>
+                        <label class="w20 no-cursive">
+                            <input type="text" class="no-cursive" name="privacy_practice_signature" required="required" value="%%privacy_practice_signature%%" />
+                        </label>
+
+
+                        <label class="w10">
+                            <p class="bold">Date</p>
+                        </label>
+                        <label class="w30">
+                            <input type="text" name="privacy_practice_signature_date" class="date" required="required" value="%%privacy_practice_signature_date%%"  />
+                        </label>
+
+                    </div>
+
+                    <div class="row">
+                        <label class="w100">
+                            <input type="text" name="privacy_practice_relationship_to_patient" required="required" value="%%privacy_practice_relationship_to_patient%%" />
+                            <p>Relationship to Patient</p>
+                        </label>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+</section>
+
+</body>
+</html>

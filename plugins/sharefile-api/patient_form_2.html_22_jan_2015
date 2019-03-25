@@ -1,0 +1,1216 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Patient Registration Forms</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--[if IE]>
+    <link rel="shortcut icon" href="https://www.hoopesvision.com/wp-content/themes/hoopes-vision/favicon.ico">
+    <![endif]-->
+
+    <meta name='robots' content='noindex,follow' />
+    <link rel='stylesheet' id='fonts-css'  href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' type='text/css' media='all' />
+    <link rel='stylesheet' id='icon-font-css'  href='https://www.hoopesvision.com/wp-content/themes/hoopes-vision/css/icon-font.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-css'  href='https://www.hoopesvision.com/wp-content/themes/hoopes-vision/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='less-css'  href='https://www.hoopesvision.com/wp-content/themes/hoopes-vision/css/less.css' type='text/css' media='all' />
+
+</head>
+<body>
+
+<section class="item-list row container main-form">
+
+    <form class="patient-form" method="POST" enctype="multipart/form-data">
+
+        <div id="accordion" class="row spaced">
+
+            <div class="content boxed">
+                <h5 class="patient-form-2">HEALTH HISTORY - 2 of 3</h5>
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="asthma" value="%%asthma%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Asthma</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="head_or_spinal_injuries" value="%%head_or_spinal_injuries%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Head or Spinal Injuries</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+
+                            <input name="kidney_disease" value="%%kidney_disease%%"/>
+
+                        </label>
+                        <label class="w75">
+                            <p>Kidney Disease</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="seizures_convulsions_fainting" value="%%seizures_convulsions_fainting%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Seizures, Convulsions, or Fainting</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="tuberculosis" value="%%tuberculosis%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Tuberculosis</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="extensive_confinement_by_illness_or_injury" value="%%extensive_confinement_by_illness_or_injury%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Extensive Confinement by Illness or Injury</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="diabetes_iddm_type_ii" value="%%diabetes_iddm_type_ii%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Diabetes IDDM/Type II - # of yrs.</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="temporal_arteritis" value="%%temporal_arteritis%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Temporal Arteritis</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="insulin" value="%%insulin%%">
+                        </label>
+                        <label class="w75">
+                            <p>Insulin</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="suffering_any_other_disease" value="%%suffering_any_other_disease%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Suffering from any other disease</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="migraines" value="%%migraines%%">
+                        </label>
+                        <label class="w75">
+                            <p>Migraines</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="cartoid_artery_disease" value="%%cartoid_artery_disease%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Carotid Artery Disease</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="psychiatric_disorder" value="%%psychiatric_disorder%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Psychiatric disorder</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="permanent_defect_from_illness_disease_or_injury" value="%%permanent_defect_from_illness_disease_or_injury%%">
+                        </label>
+                        <label class="w75">
+                            <p>Permanent defect from Illness, Disease or Injury</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="any_nervous_disorder" value="%%any_nervous_disorder%%"  />
+                        </label>
+                        <label class="w75">
+                            <p>Any nervous disorder</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="pregnant" value="%%pregnant%%" />
+                        </label>
+                        <label class="w75">
+                            <p>(Women) Are you pregnant?</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="heart_disease" value="%%heart_disease%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Heart Disease</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="stroke" value="%%stroke%%"/>
+                        </label>
+                        <label class="w75">
+                            <p>Stroke</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="ulcer" value="%%ulcer%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Ulcer</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="hiv" value="%%hiv%%">
+                        </label>
+                        <label class="w75">
+                            <p>HIV</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="high_blood_pressure" value="%%high_blood_pressure%%" />
+                        </label>
+                        <label class="w75">
+                            <p>High Blood Pressure</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="sickle_cell_anemia" value="%%sickle_cell_anemia%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Sickle Cell Anemia</p>
+                        </label>
+                    </div>
+                </div>
+				
+				<div class="row">
+					<div class="w50">
+						<label class="w25">
+							<input name="use-tobacco" value="%%use-tobacco%%" />
+						</label>
+						<label class="w75">
+							<p>Tobacco</p>
+						</label>
+					</div>
+					<div class="w50">
+						<label class="w25">
+							<input name="use-alcohol" value="%%use-alcohol%%" />
+						</label>
+						<label class="w75">
+							<p>Alcohol</p>
+						</label>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="w50">
+						<label class="w25">
+							<input name="use-autoimmune" value="%%use-autoimmune%%" />
+						</label>
+						<label class="w75">
+							<p>Autoimmune or Collagen Vascular Disease</p>
+						</label>
+					</div>					
+				</div>
+				
+                <div class="row">
+                    <div class="w50 user-list">
+                        <label class="w100">
+                            <h6>Medications:</h6>
+                            <input name="medications_and_vitamins" id="medication" class="medication" value="%%medications_and_vitamins%%"  />
+                            %%%%
+                        </label>
+                    </div>
+
+                    <div class="w50 user-list">
+                        <label class="w100">
+                            <h6>Allergies:</h6>
+                            <input name="allergies" id="allergy" class="allergy" value="%%allergies%%" />
+                            %%%%
+                        </label>
+                    </div>
+                </div>
+
+                <h4>YOUR OCULAR HISTORY <em>(Have you been diagnosed with any of the following in the past?)</em></h4>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="cataracts" value="%%cataracts%%">
+                        </label>
+                        <label class="w75">
+                            <p>Cataracts</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="cornea_disease" value="%%cornea_disease%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Cornea Disease</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="retina_disease" value="%%retina_disease%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Retina Disease</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="glaucoma" value="%%glaucoma%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Glaucoma</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="crossed_eyes" value="%%crossed_eyes%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Crossed Eyes</p>
+                        </label>
+                    </div>
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="injury" value="%%injury%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Injury</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="iritis" value="%%iritis%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Iritis</p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="w50 user-list">
+                        <label class="w100">
+                            <h6>Other Eye Disorders</h6>
+                            <input name="eye_disorder" id="eye-disorder" class="eye-disorder" value="%%eye_disorder%%" />
+                            %%%%
+                        </label>
+                    </div>
+                </div>
+
+                <h4>Family History <em>(Has anyone in your family (blood relative) had any of the following? )</em></h4>
+
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="glaucoma_family_history" class="family-history" value="%%glaucoma_family_history%%">
+                        </label>
+                        <label class="w75">
+                            <p>Glaucoma</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members">
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="glaucoma_father" type="checkbox" checked="glaucoma_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="glaucoma_mother" type="checkbox" checked="glaucoma_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="glaucoma_paternal" type="checkbox" checked="glaucoma_paternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="glaucoma_maternal" type="checkbox" checked="glaucoma_maternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="glaucoma_sister" type="checkbox" checked="glaucoma_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="glaucoma_brother" type="checkbox" checked="glaucoma_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="glaucoma_grandfather" type="checkbox" checked="glaucoma_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="glaucoma_grandmother" type="checkbox" checked="glaucoma_grandmother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="glaucoma_uncle" type="checkbox" checked="glaucoma_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="glaucoma_aunt" type="checkbox" checked="glaucoma_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+                </div>
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+
+                            <input name="diabetes" class="family-history" value="%%diabetes%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Diabetes IDDM/Type II</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members">
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="diabetes_father" type="checkbox" checked="diabetes_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetes_mother" type="checkbox" checked="diabetes_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetes_paternal" type="checkbox" checked="diabetes_paternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetes_maternal" type="checkbox" checked="diabetes_maternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetes_sister" type="checkbox" checked="diabetes_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetes_brother" type="checkbox" checked="diabetes_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetes_grandfather" type="checkbox" checked="diabetes_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetes_grandmother" type="checkbox" checked="diabetes_grandmother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetes_uncle" type="checkbox" checked="diabetes_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetes_aunt" type="checkbox" checked="diabetes_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+                </div>
+
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="cataracts_family_history" class="family-history" value="%%cataracts_family_history%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Cataracts</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members">
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="cataracts_father" type="checkbox" checked="cataracts_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="cataracts_mother" type="checkbox" checked="cataracts_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="cataracts_paternal" type="checkbox" checked="cataracts_paternal"  />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="cataracts_maternal" type="checkbox" checked="cataracts_maternal"  />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="cataracts_sister" type="checkbox" checked="cataracts_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="cataracts_brother" type="checkbox" checked="cataracts_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="cataracts_grandfather" type="checkbox" checked="cataracts_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="cataracts_grandmother" type="checkbox" checked="cataracts_grandmother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="cataracts_uncle" type="checkbox" checked="cataracts_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="cataracts_aunt" type="checkbox" checked="cataracts_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+                </div>
+
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="heart" class="family-history" value="%%heart%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Heart</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members" >
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="heart_father" type="checkbox" checked="heart_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="heart_mother" type="checkbox" checked="heart_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="heart_paternal" type="checkbox" checked="heart_paternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="heart_maternal" type="checkbox" checked="heart_maternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="heart_sister" type="checkbox" checked="heart_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="heart_brother" type="checkbox" checked="heart_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="heart_grandfather" type="checkbox" checked="heart_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="heart_grandmother" type="checkbox" checked="heart_grandmother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="heart_uncle" type="checkbox" checked="heart_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="heart_aunt" type="checkbox" checked="heart_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+                </div>
+
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="cornea_disease_family_history" class="family-history" value="%%cornea_disease_family_history%%">
+                        </label>
+                        <label class="w75">
+                            <p>Cornea Disease</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members">
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="cornea_disease_father" type="checkbox" checked="cornea_disease_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="cornea_disease_mother" type="checkbox" checked="cornea_disease_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="cornea_disease_paternal" type="checkbox" checked="cornea_disease_paternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="cornea_disease_maternal" type="checkbox" checked="cornea_disease_maternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="cornea_disease_sister" type="checkbox" checked="cornea_disease_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="cornea_disease_brother" type="checkbox" checked="cornea_disease_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="cornea_disease_grandfather" type="checkbox" checked="cornea_disease_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="cornea_disease_grandmother" type="checkbox" checked="cornea_disease_grandmother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="cornea_disease_uncle" type="checkbox" checked="cornea_disease_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="cornea_disease_aunt" type="checkbox" checked="cornea_disease_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+                </div>
+
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="diabetic_retinopathy" class="family-history" value="%%diabetic_retinopathy%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Diabetic Retinopathy</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members">
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="diabetic_retinopathy_father" type="checkbox" checked="diabetic_retinopathy_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetic_retinopathy_mother" type="checkbox" checked="diabetic_retinopathy_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetic_retinopathy_paternal" type="checkbox" checked="diabetic_retinopathy_paternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetic_retinopathy_maternal" type="checkbox" checked="diabetic_retinopathy_maternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetic_retinopathy_sister" type="checkbox" checked="diabetic_retinopathy_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetic_retinopathy_brother" type="checkbox" checked="diabetic_retinopathy_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetic_retinopathy_grandfather" type="checkbox" checked="diabetic_retinopathy_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetic_retinopathy_grandmother" type="checkbox" checked="diabetic_retinopathy_grandmother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetic_retinopathy_uncle" type="checkbox" checked="diabetic_retinopathy_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="diabetic_retinopathy_aunt" type="checkbox" checked="diabetic_retinopathy_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+                </div>
+
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="macular_degeneration" class="family-history" value="%%macular_degeneration%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Macular Degeneration</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members">
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="macular_degeneration_father" type="checkbox" checked="macular_degeneration_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="macular_degeneration_mother" type="checkbox" checked="macular_degeneration_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="macular_degeneration_paternal" type="checkbox" checked="macular_degeneration_paternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="macular_degeneration_maternal" type="checkbox" checked="macular_degeneration_maternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="macular_degeneration_sister" type="checkbox" checked="macular_degeneration_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="macular_degeneration_brother" type="checkbox" checked="macular_degeneration_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="macular_degeneration_grandfather" type="checkbox" checked="macular_degeneration_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="macular_degeneration_grandmother" type="checkbox" checked="macular_degeneration_grandmother"" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="macular_degeneration_uncle" type="checkbox" checked="macular_degeneration_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="macular_degeneration_aunt" type="checkbox" checked="macular_degeneration_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+                </div>
+
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="retinal_detachment" class="family-history" value="%%retinal_detachment%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Retinal Detachment</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members">
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="retinal_detachment_father" type="checkbox" checked="retinal_detachment_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="retinal_detachment_mother" type="checkbox" checked="retinal_detachment_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="retinal_detachment_paternal" type="checkbox" checked="retinal_detachment_paternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="retinal_detachment_maternal" type="checkbox" checked="retinal_detachment_maternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="retinal_detachment_sister" type="checkbox" checked="retinal_detachment_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="retinal_detachment_brother" type="checkbox" checked="retinal_detachment_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="retinal_detachment_grandfather" type="checkbox" checked="retinal_detachment_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="retinal_detachment_grandmother" type="checkbox" checked="retinal_detachment_grandmother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="retinal_detachment_uncle" type="checkbox" checked="retinal_detachment_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="retinal_detachment_aunt" type="checkbox" checked="retinal_detachment_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+                </div>
+
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="retinitis_pigmentosa" class="family-history" value="%%retinitis_pigmentosa%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Retinitis Pigmentosa</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members">
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="retinitis_pigmentosa_father" type="checkbox" checked="retinitis_pigmentosa_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="retinitis_pigmentosa_mother" type="checkbox" checked="retinitis_pigmentosa_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="retinitis_pigmentosa_paternal" type="checkbox" checked="retinitis_pigmentosa_paternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="retinitis_pigmentosa_maternal" type="checkbox" checked="retinitis_pigmentosa_maternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="retinitis_pigmentosa_sister" type="checkbox" checked="retinitis_pigmentosa_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="retinitis_pigmentosa_brother" type="checkbox" checked="retinitis_pigmentosa_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="retinitis_pigmentosa_grandfather" type="checkbox" checked="retinitis_pigmentosa_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="retinitis_pigmentosa_grandmother" type="checkbox" checked="retinitis_pigmentosa_grandmother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="retinitis_pigmentosa_uncle" type="checkbox" checked="retinitis_pigmentosa_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="retinitis_pigmentosa_aunt" type="checkbox" checked="retinitis_pigmentosa_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+                </div>
+
+                <div class="row family-history-row">
+                    <div class="w50">
+                        <label class="w25">
+                            <input name="stroke_family_history" class="family-history" value="%%stroke_family_history%%" />
+                        </label>
+                        <label class="w75">
+                            <p>Stroke</p>
+                        </label>
+                    </div>
+
+                    <!-- If yes -->
+                    <div id="choose-family-members" class="w50 family-members">
+                        <div class="fam-tree">
+                            <div class="tab">
+                                <i class="fa fa-angle-down"></i>
+                                <h6>Choose Family Member(s)</h6>
+                            </div>
+                            <label>
+                                <input name="stroke_father" type="checkbox" checked="stroke_father" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Father</p>
+                            </label>
+
+                            <label>
+                                <input name="stroke_mother" type="checkbox" checked="stroke_mother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Mother</p>
+                            </label>
+
+                            <label>
+                                <input name="stroke_paternal" type="checkbox" checked="stroke_paternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Paternal</p>
+                            </label>
+
+                            <label>
+                                <input name="stroke_maternal" type="checkbox" checked="stroke_maternal" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Maternal</p>
+                            </label>
+
+                            <label>
+                                <input name="stroke_sister" type="checkbox" checked="stroke_sister" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Sister</p>
+                            </label>
+
+                            <label>
+                                <input name="stroke_brother" type="checkbox" checked="stroke_brother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Brother</p>
+                            </label>
+
+                            <label>
+                                <input name="stroke_grandfather" type="checkbox" checked="stroke_grandfather" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandfather</p>
+                            </label>
+
+                            <label>
+                                <input name="stroke_grandmother" type="checkbox" checked="stroke_grandmother" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Grandmother</p>
+                            </label>
+
+                            <label>
+                                <input name="stroke_uncle" type="checkbox" checked="stroke_uncle" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Uncle</p>
+                            </label>
+
+                            <label>
+                                <input name="stroke_aunt" type="checkbox" checked="stroke_aunt" />
+                                <span><i class="fa fa-check"></i><i class="fa fa-times"></i></span>
+                                <p>Aunt</p>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- End If yes -->
+
+                </div>
+
+                <div class="row">
+                    <div class="w50 user-list">
+                        <label class="w100">
+                            <h6>Other Eye Problems</h6>
+                            <input name="other_eye_problems" id="other-eye-problems" class="other-eye-problems" value="%%other_eye_problems%%" />
+                            %%%%
+                        </label>
+                    </div>
+                    <div class="w50 user-list">
+                        <label class="w100">
+                            <h6>Other General Health Problems</h6>
+                            <input name="other_general_problems" id="other-general-problems" class="other-general-problems" value="%%other_general_problems%%" />
+                            %%%%
+                        </label>
+                    </div>
+                </div>
+
+                <h4>SURGICAL HISTORY</h4>
+
+                <div id="surgery" class="surgery row">
+
+                    <label class="w33">
+                        <h6>Date of Surgery</h6>
+                        <input type="text"  class="date surgery-date" name="surgery_date" value="%%surgery_date%%"/>
+                    </label>
+
+                    <label class="w66">
+                        <h6>Type of surgery</h6>
+                        <input type="text" name="surgery_type" class="surgery-type text" value="%%surgery_type%%" />
+                    </label>
+
+                </div>
+

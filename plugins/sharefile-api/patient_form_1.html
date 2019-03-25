@@ -1,0 +1,541 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Patient Registration Forms</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--[if IE]>
+    <link rel="shortcut icon" href="https://www.hoopesvision.com/wp-content/themes/hoopes-vision/favicon.ico">
+    <![endif]-->
+
+    <meta name='robots' content='noindex,follow' />
+    <link rel='stylesheet' id='fonts-css'  href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' type='text/css' media='all' />
+    <link rel='stylesheet' id='icon-font-css'  href='https://www.hoopesvision.com/wp-content/themes/hoopes-vision/css/icon-font.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='style-css'  href='https://www.hoopesvision.com/wp-content/themes/hoopes-vision/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='less-css'  href='https://www.hoopesvision.com/wp-content/themes/hoopes-vision/css/less.css' type='text/css' media='all' />
+
+</head>
+
+<body>
+
+<section class="item-list row container" style="padding-top: 0">
+
+    <form class="patient-form" method="POST" enctype="multipart/form-data">
+
+        <div id="accordion" class="row spaced">
+
+            <h5 class="patient-form-1 ui-accordion-header">Personal Information - 1 of 3</h5>
+
+            <div class="content boxed main-form">
+                <h4>Patient Information</h4>
+
+                <div class="row">
+                    <label class="w33">
+                        <input type="text" name="first_name" required="required" value="%%first_name%%" />
+                        <p>
+                            <span class="static">First Name</span>
+                            <span class="animate">First Name</span>
+                        </p>
+                    </label>
+                    <label class="w33">
+                        <input type="text" name="middle_name" value="%%middle_name%%" />
+                        <p>
+                            <span class="static">Middle Name</span>
+                            <span class="animate">Middle Name</span>
+                        </p>
+                    </label>
+                    <label class="w33">
+                        <input type="text" name="last_name" required="required" value="%%last_name%%" />
+                        <p>
+                            <span class="static">Last Name</span>
+                            <span class="animate">Last Name</span>
+                        </p>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="w50">
+                        <input type="email" name="email" required="required" value="%%email%%"/>
+                        <p>
+                            <span class="static">E-mail</span>
+                            <span class="animate">E-mail</span>
+                        </p>
+                    </label>
+
+                    <label class="w50">
+                        <input type="text" name="street_address" required="required" value="%%street_address%%"/>
+                        <p>
+                            <span class="static">Street Address</span>
+                            <span class="animate"><!-- Street Address --> <em>Please Put in a valid Street Address</em></span>
+                        </p>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="w33">
+                        <input type="text" name="zip_code" required="required" value="%%zip_code%%" />
+                        <p>
+                            <span class="static">Zip Code</span>
+                            <span class="animate">Zip Code</span>
+                        </p>
+                    </label>
+                    <label class="w33">
+                        <input type="text" name="city" required="required" value="%%city%%" />
+                        <p>
+                            <span class="static">City</span>
+                            <span class="animate">City</span>
+                        </p>
+                    </label>
+                    <label class="w33" for="state">
+
+                        <input type="text" name="state" id="state" required="required" value="%%state%%">
+                        <p>
+                            <span>State</span>
+                        </p>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="w33">
+                        <input type="tel" name="home_phone" class="phone" required="required" pattern="\(\d\d\d\) \d\d\d\-\d\d\d\d" title="(XXX) XXX-XXXX" placeholder="(XXX) XXX-XXXX" value="%%home_phone%%"/>
+                        <p>
+                            <span class="static">Home Phone Number</span>
+                            <span class="animate">Home Phone Number</span>
+                        </p>
+                    </label>
+                    <label class="w33">
+                        <input type="tel" name="cell_phone" class="phone" pattern="\(\d\d\d\) \d\d\d\-\d\d\d\d" title="(XXX) XXX-XXXX" placeholder="(XXX) XXX-XXXX" value="%%cell_phone%%"/>
+                        <p>
+                            <span class="static">Cell Phone Number</span>
+                            <span class="animate">Cell Phone Number</span>
+                        </p>
+                    </label>
+                    <label class="w33">
+                        <input type="tel" name="work_phone" class="phone" pattern="\(\d\d\d\) \d\d\d\-\d\d\d\d" title="(XXX) XXX-XXXX" placeholder="(XXX) XXX-XXXX" value="%%work_phone%%" />
+                        <p>
+                            <span class="static">Work Phone Number</span>
+                            <span class="animate">Work Phone Number</span>
+                        </p>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="w33">
+                        <input type="text" name="date_of_birth" class="date" required="required" value="%%date_of_birth%%" />
+                        <p>
+                            <span class="static">Date of Birth</span>
+                            <span class="animate">Date of Birth</span>
+                        </p>
+                    </label>
+                    <label class="w33">
+                        <input type="text" name="social_security_number" class="ss" placeholder="XXX-XX-XXXX" required="required" value="%%social_security_number%%"/>
+                        <p>
+                            <span class="static">Social Security Number</span>
+                            <span class="animate">Social Security Number</span>
+                        </p>
+                    </label>
+                    <label class="w33">
+                        <input name="gender" required="required" value="%%gender%%">
+                        <p>Gender</p>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="w33">
+                        <input name="marital_status" value="%%marital_status%%">
+                        <p>Martial Status</p>
+                    </label>
+                    <!-- If "Martial Status" = "Other"
+                    <label class="w25 other">
+                        <input type="text" name="marital_status_other" />
+                        <p>
+                            <span class="static">(Other) Martial Status</span>
+                            <span class="animate">(Other) Martial Status</span>
+                        </p>
+                    </label>
+                    END If "Martial Status" = "Other" -->
+                    <label class="w33">
+
+                        <input name="employment_status" required="required" value="%%employment_status%%">
+                        <p>Employment</p>
+                    </label>
+                    <label class="w33">
+                        <input type="text" name="primary_care_physician" value="%%primary_care_physician%%" />
+                        <p>
+                            <span class="static">Primary Care Physician</span>
+                            <span class="animate">Primary Care Physician</span>
+                        </p>
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="w50">
+
+                        <input name="patient_relationship_to_responsible_party" required="required" value="%%patient_relationship_to_responsible_party%%">
+                        <p>Patient Relationship to Responsible Party</p>
+                    </label>
+                    <!-- If "Patient Relationship to Responsible Party" = "Other" -->
+                    <label class="w50 other">
+                        <input type="text" name="patient_relationship_to_responsible_party_other" value="%%patient_relationship_to_responsible_party_other%%" />
+                        <p>
+                            <span class="static">Other</span>
+                            <span class="animate">Other</span>
+                        </p>
+                    </label>
+                    <!-- END If "Patient Relationship to Responsible Party" = "Other" -->
+                </div>
+
+                <h5>Patient's Employer Information</h5>
+
+                <div class="row">
+                    <label class="w66">
+                        <input type="text" name="patient_employer_company" required="required" value="%%patient_employer_company%%" />
+                        <p>
+                            <span class="static">Company</span>
+                            <span class="animate">Company</span>
+                        </p>
+                    </label>
+                    <label class="w33">
+                        <input type="text" name="patient_employer_city" required="required" value="%%patient_employer_city%%" />
+                        <p>
+                            <span class="static">City</span>
+                            <span class="animate">City</span>
+                        </p>
+                    </label>
+                </div>
+
+                <h5 class="na-info">Accident Information <span>
+                    <input type="checkbox" checked="accident_information_not_applicable" name="accident_information_not_applicable" class="na-checkbox" style="display: block !important;" />
+                    N/A
+                    </span>
+                </h5>
+
+                <div class="na-info-content">
+                    <div class="row">
+                        <label class="w33">
+                            <input type="text" class="date" name="accident_date_of_incident" value="%%accident_date_of_incident%%"/>
+                            <p>
+                                <span class="static">Date</span>
+                                <span class="animate">Date</span>
+                            </p>
+                        </label>
+                        <label class="w33">
+                            <input name="accident_type" value="%%accident_type%%">
+                            <p>Employment</p>
+                        </label>
+                        <!-- If "Employment" = "Other" -->
+                        <label class="w33 other">
+                            <input type="text" name="accident_type_other" value="%%accident_type_other%%"/>
+                            <p>
+                                <span class="static">(Other) Employment</span>
+                                <span class="animate">(Other) Employment</span>
+                            </p>
+                        </label>
+                        <!-- END If "Employment" = "Other" -->
+                    </div>
+                    <div class="row">
+                        <label class="w50">
+                            <input type="text" name="accident_work_related_supervisor" value="%%accident_work_related_supervisor%%"/>
+                            <p>
+                                <span class="static">If work related, Supervisor</span>
+                                <span class="animate">If work related, Supervisor</span>
+                            </p>
+                        </label>
+                        <label class="w50">
+                            <input type="tel" name="accidental_work_related_supervisor_phone" pattern="\(\d\d\d\) \d\d\d\-\d\d\d\d" title="(XXX) XXX-XXXX" placeholder="(XXX) XXX-XXXX" value="%%accidental_work_related_supervisor_phone%%"/>
+                            <p>
+                                <span class="static">Phone</span>
+                                <span class="animate">Phone</span>
+                            </p>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="spesh-box pf1">
+                    <div class="row">
+                        <label class="w100">
+                            <p class="w50">Were you referred to us by your optometrist? If so, who?</p>
+                            <span class="w50">
+                                <input  type="text" name="referring_optometrist" value="%%referring_optometrist%%"/>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <div class="w100">
+                            <p class="w33">Were you referred to us by a:</p>
+                            <label class="w33">
+
+                                <input class="w100" name="referred_to_us_by" value="%%referred_to_us_by%%"/>
+                            </label>
+                            <!-- If Other,  -->
+                            <label class="w33 other hide">
+                                <p class="w33">Other</p>
+                                <input class="w66" type="text" name="referred_to_us_by_other" value="%%referred_to_us_by_other%%" />
+                            </label>
+                            <!-- End If Other,  -->
+                        </div>
+                    </div>
+					<!--
+                    <div class="row">
+                        <div class="w100">
+                            <p class="w33">How else did you hear about us?</p>
+                            <label class="w22">
+                                <input type="checkbox" checked="referred_by_radio" name="referred_by_radio" class="w referred_by" id="referred_by_radio" /><p class="w100"><i class="fa fa-check"></i> Radio</p>
+                            </label>
+                            <label class="w22">
+                                <input type="checkbox" checked="referred_by_newspaper" name="referred_by_newspaper"  class="w referred_by" id="referred_by_newspaper" /><p class="w100"><i class="fa fa-check"></i> Newspaper</p>
+                            </label>
+                            <label class="w22">
+                                <input type="checkbox" checked="referred_by_magazine" name="referred_by_magazine"  class="w referred_by" id="referred_by_magazine" /><p class="w100"><i class="fa fa-check"></i> Magazine</p>
+                            </label>
+                        </div>
+                    </div>
+					-->
+                    <!-- <if radio> -->
+                    <div class="row referred_by_radio referred_by_row">
+                        <p class="w33">
+                            What Radio Station?
+                        </p>
+                        <label class="w33">
+                            <input name="referred_by_radio_station" value="%%referred_by_radio_station%%">
+                        </label>
+                        <!-- If "What Radio Station?" = "Other" -->
+                        <label class="w33 other hide">
+                            <p class="w33">Other</p>
+                            <input class="w66" type="text" name="referred_by_radio_other" value="%%referred_by_radio_other%%"/>
+                        </label>
+                        <!-- END "What Radio Station?" = "Other" -->
+                    </div>
+                    <!-- </if radio> -->
+                    <!-- <if newspaper> -->
+                    <div class="row referred_by_newspaper referred_by_row">
+                        <p class="w33">
+                            What Newspaper?
+                        </p>
+                        <label class="w33">
+                            <input name="referred_by_newspaper_company" value="%%referred_by_newspaper_company%%" />
+                        </label>
+                        <!-- If "What Newspaper?" = "Other" -->
+                        <label class="w33 other hide">
+                            <p class="w33">Other</p>
+                            <input class="w66" type="text" name="referred_by_newspaper_other" value="%%referred_by_newspaper_other%%" />
+                        </label>
+                        <!-- END "What Newspaper?" = "Other -->
+                    </div>
+                    <!-- </if newspaper> -->
+                    <!-- <if tv> -->
+                    <!--<div class="row referred_by_magazine referred_by_row">
+                        <p class="w33">
+                            What TV Channel?
+                        </p>
+                        <label class="w66">
+                            <input type="text" name="referred_by_tv"/>
+                        </label>
+                    </div>-->
+                    <!-- </if tv> -->
+                    <!-- <if newspaper> -->
+                    <div class="row referred_by_magazine referred_by_row">
+                        <p class="w33">
+                            What Magazine?
+                        </p>
+                        <label class="w33">
+                            <input name="referred_by_magazine_company" value="%%referred_by_magazine_company%%" />
+                        </label>
+                        <!-- If "What Magazine?" = "Other" -->
+                        <label class="w33 other hide">
+                            <p class="w33">Other</p>
+                            <input class="w66" type="text" name="referred_by_magazine_other" value="%%referred_by_magazine_other%%" />
+                        </label>
+                        <!-- END If "What Magazine?" = "Other" -->
+                    </div>
+                    <!-- </if newspaper> -->
+                </div>
+                <h4  class="na-info">Responsible (Or Insured) Party Information <span><input type="checkbox"  checked="responsible_party_self" name="responsible_party_self" class="self-checkbox" style="display: block !important;" />Self</span></h4>
+
+                <div class="na-info-content">
+                    <div class="row">
+                        <label class="w33">
+                            <input type="text" name="responsible_party_first_name"  required="required" value="%%responsible_party_first_name%%"/>
+                            <p>
+                                <span class="static">First Name</span>
+                                <span class="animate">First Name</span>
+                            </p>
+                        </label>
+                        <label class="w33">
+                            <input type="text" name="responsible_party_middle_name" value="%%responsible_party_middle_name%%" />
+                            <p>
+                                <span class="static">Middle Name</span>
+                                <span class="animate">Middle Name</span>
+                            </p>
+                        </label>
+                        <label class="w33">
+                            <input type="text" name="responsible_party_last_name" required="required" value="%%responsible_party_last_name%%"/>
+                            <p>
+                                <span class="static">Last Name</span>
+                                <span class="animate">Last Name</span>
+                            </p>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label class="w25">
+                            <input type="text" name="responsible_party_address" required="required" value="%%responsible_party_address%%"/>
+                            <p>
+                                <span class="static">Address</span>
+                                <span class="animate">Address</span>
+                            </p>
+                        </label>
+                        <label class="w25">
+                            <input type="text" class="date" name="responsible_party_date_of_birth" required="required" value="%%responsible_party_date_of_birth%%"/>
+                            <p>
+                                <span class="static">Date of Birth</span>
+                                <span class="animate">Date f Birth</span>
+                            </p>
+                        </label>
+                        <label class="w25">
+                            <input type="text" placeholder="XXX-XX-XXXX" class="ss" name="responsible_party_social_security_number" required="required" value="%%responsible_party_social_security_number%%" />
+                            <p>
+                                <span class="static">Social Security Number</span>
+                                <span class="animate">Social Security Number</span>
+                            </p>
+                        </label>
+                        <label class="w25">
+
+                            <input name="responsible_party_gender" required="required" value="%%responsible_party_gender%%" />
+                            <p>Gender</p>
+                        </label>
+                    </div>
+                    <div class="row">
+                        <label class="w33">
+                            <input type="tel" name="responsible_party_phone"  required="required" pattern="\(\d\d\d\) \d\d\d\-\d\d\d\d" title="(XXX) XXX-XXXX" placeholder="(XXX) XXX-XXXX" value="%%responsible_party_phone%%"/>
+                            <p>
+                                <span class="static">Phone Number</span>
+                                <span class="animate">Phone Number</span>
+                            </p>
+                        </label>
+                        <label class="w33">
+                            <input type="tel" name="responsible_party_work_phone" pattern="\(\d\d\d\) \d\d\d\-\d\d\d\d" title="(XXX) XXX-XXXX" placeholder="(XXX) XXX-XXXX" value="%%responsible_party_work_phone%%" />
+                            <p>
+                                <span class="static">Work Phone Number</span>
+                                <span class="animate">Work Phone Number</span>
+                            </p>
+                        </label>
+                        <label class="w33">
+                            <input type="email" name="responsible_party_email" required="required" value="%%responsible_party_email%%" />
+                            <p>
+                                <span class="static">Email</span>
+                                <span class="animate">Email</span>
+                            </p>
+                        </label>
+                    </div>
+
+                    <div class="row">
+                        <label class="w66">
+                            <input type="text" name="responsible_party_company" required="required" value="%%responsible_party_company%%" />
+                            <p>
+                                <span class="static">Company</span>
+                                <span class="animate">Company</span>
+                            </p>
+                        </label>
+                        <label class="w33">
+                            <input type="text" name="responsible_party_city" required="required" value="%%responsible_party_city%%" />
+                            <p>
+                                <span class="static">City</span>
+                                <span class="animate">City</span>
+                            </p>
+                        </label>
+                    </div>
+                </div>
+
+                <h4>Insurance Information</h4>
+
+                <div>
+                    <!-- Repeat if Add New -->
+                    <div id="insurance-company" class="company">
+                        <div class="row">
+                            <label class="w33">
+                                <input type="text" name="insurance_company" required="required" value="%%insurance_company%%" />
+                                <p>
+                                    <span class="static insurance-company-label">Primary Insurance Company</span>
+                                    <span class="animate insurance-company-animate">Primary Insurance Company</span>
+                                </p>
+                            </label>
+                            <label class="w33">
+                                <input type="text" name="insurance_address" required="required" value="%%insurance_address%%"  />
+                                <p>
+                                    <span class="static">Address</span>
+                                    <span class="animate">Address</span>
+                                </p>
+                            </label>
+                            <label class="w33">
+                                <input type="tel" name="insurance_phone" required="required" pattern="\(\d\d\d\) \d\d\d\-\d\d\d\d" title="(XXX) XXX-XXXX" placeholder="(XXX) XXX-XXXX" value="%%insurance_phone%%" />
+                                <p>
+                                    <span class="static">Phone Number</span>
+                                    <span class="animate">Phone Number</span>
+                                </p>
+                            </label>
+                        </div>
+                        <div class="row">
+
+                            <label class="w25">
+                                <input type="text" name="insurance_subscribers_name" required="required" value="%%insurance_subscribers_name%%" />
+                                <p>
+                                    <span class="static">Subscriber's Name</span>
+                                    <span class="animate">Subscriber's Name</span>
+                                </p>
+                            </label>
+                            <label class="w50">
+
+                                <input name="insurance_patient_relationship_to_subscriber" required="required" value="%%insurance_patient_relationship_to_subscriber%%" >
+                                <p>
+                                    Patient Relationship to Subscriber
+                                </p>
+                            </label>
+                            <!-- If Patient Relationship to Subscriber = "Other' -->
+                            <label class="w25 other hide">
+                                <input type="text" name="insurance_relationship_to_subscriber_other" value="%%insurance_relationship_to_subscriber_other%%"/>
+                                <p>
+                                    <span class="static">(Other) Relationship to Subscriber</span>
+                                    <span class="animate">(Other) Relationship to Subscriber</span>
+                                </p>
+                            </label>
+                            <!-- End if-->
+
+                        </div>
+                        <div class="row">
+                            <label class="w25">
+                                <input type="text" name="insurance_contract_id_number" required="required" value="%%insurance_contract_id_number%%"/>
+                                <p>
+                                    <span class="static">Contract (ID#) Number</span>
+                                    <span class="animate">Contract (ID#) Number</span>
+                                </p>
+                            </label>
+                            <label class="w25">
+                                <input type="text" name="insurance_group_number" required="required" value="%%insurance_group_number%%"/>
+                                <p>
+                                    <span class="static">Group Number</span>
+                                    <span class="animate">Group Number</span>
+                                </p>
+                            </label>
+                            <label class="w25">
+                                <!--<span class="input-icon">$</span>-->
+                                <input type="text" name="insurance_copayment_amount" required="required" value="%%insurance_copayment_amount%%"/>
+                                <p>
+                                    <span class="static">Co-Payment Amount </span>
+                                    <span class="animate">Co-Payment Amount</span>
+                                </p>
+                            </label>
+                            <label class="w25">
+                                <input type="text" class="date" name="insurance_insureds_date_of_birth" required="required" value="%%insurance_insureds_date_of_birth%%" />
+                                <p>
+                                    <span class="static">Insured's Date of Birth</span>
+                                    <span class="animate">Insured's Date of Birth</span>
+                                </p>
+                            </label>
+                        </div>
+                        <!-- </ Repeat if Add new >-->
+                    </div>
+                </div>
